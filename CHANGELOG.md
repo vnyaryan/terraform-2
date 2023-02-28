@@ -7,7 +7,8 @@ ENHANCEMENTS:
 
 BUGFIXES:
 * Updated window VM feature tag - [117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/117) 
-* [116](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/116) Update variable name in foundation module 
+* Update variable name in foundation module - [116](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/116) 
+* Updated variable name in shared vnet module -[117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/115)
 
 ## Previous Releases
 
