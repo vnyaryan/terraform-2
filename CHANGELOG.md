@@ -12,7 +12,8 @@ ENHANCEMENTS:
 )
 * Enable ACR and storage module as optional - [57](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/57
 )
-### BUGFIXES:
+
+BUGFIXES:
 * Updated window VM feature tag - [117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/117) 
 * Update variable name in foundation module - [116](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/116) 
 * Updated variable name in shared vnet module -[115](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/115)
