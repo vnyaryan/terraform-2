@@ -6,7 +6,9 @@ ENHANCEMENTS:
 * If Terraform CLI recieves SIGINT (or its equivalent on non-Unix platforms) during the apply step then it will immediately try to persist the latest state snapshot to the state storage backend, with the assumption that a graceful shutdown request often typically followed by a hard abort some time later if the graceful shutdown doesn't complete fast enough. [GH-32680]
 
 BUGFIXES:
-* [117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/117)
+* [117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/117) Updated window VM feature tag
+* [116](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/116) Update variable name in foundation module 
+
 ## Previous Releases
 
 For information on prior major and minor releases, see their changelogs:
