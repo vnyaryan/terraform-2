@@ -2,13 +2,15 @@
 
 ENHANCEMENTS:
 
-* Terraform CLI's local operations mode will now attempt to persist state snapshots to the state storage backend periodically during the apply step, thereby reducing the window for lost data if the Terraform process is aborted unexpectedly. [GH-32680]
-* If Terraform CLI recieves SIGINT (or its equivalent on non-Unix platforms) during the apply step then it will immediately try to persist the latest state snapshot to the state storage backend, with the assumption that a graceful shutdown request often typically followed by a hard abort some time later if the graceful shutdown doesn't complete fast enough. [GH-32680]
+* Create separate module for vmss and removed existing vmss code in shared vnet module - [114](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/114)
+* Added dotnet app creation in app service - [108](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/108)
+
 
 BUGFIXES:
 * Updated window VM feature tag - [117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/117) 
 * Update variable name in foundation module - [116](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/116) 
-* Updated variable name in shared vnet module -[117](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/115)
+* Updated variable name in shared vnet module -[115](https://git.i.mercedes-benz.com/mo360-compute-platform/infrastructure-terraform-modules/pull/115)
+* 
 
 ## Previous Releases
 
